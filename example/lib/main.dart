@@ -31,36 +31,55 @@ class MyHomePage extends StatelessWidget {
 
   static const cafePosition = LatLng(35.659172, 139.7023894);
   static const clothesShopPosition = LatLng(35.659528, 139.698723);
-  static const hamburgerShopPosition = LatLng(35.6604027, 139.6984333);
+  static const hamburgerShopPosition = LatLng(35.6614027, 139.6983333);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: WidgetMarkerGoogleMap(
         initialCameraPosition: shibuya,
+        mapType: MapType.normal,
         widgetMarkers: [
           WidgetMarker(
             position: cafePosition,
             markerId: 'cafe',
-            widget: const _MarkerContent(
-              backgroundColor: Colors.brown,
-              icon: Icons.coffee,
+            widget: Container(
+              color: Colors.brown,
+              padding: const EdgeInsets.all(2),
+              child: const Icon(
+                Icons.coffee,
+                color: Colors.white,
+                size: 64,
+              ),
             ),
           ),
           WidgetMarker(
             position: clothesShopPosition,
             markerId: 'clothes',
-            widget: const _MarkerContent(
-              backgroundColor: Colors.black,
-              icon: Icons.shopping_cart_rounded,
+            widget: Container(
+              color: Colors.green,
+              padding: const EdgeInsets.all(4),
+              child: const Text(
+                'shop',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 32,
+                ),
+              ),
             ),
           ),
           WidgetMarker(
             position: hamburgerShopPosition,
             markerId: 'hamburger',
-            widget: const _MarkerContent(
-              backgroundColor: Colors.red,
-              icon: Icons.fastfood_rounded,
+            widget: Container(
+              color: Colors.red,
+              padding: const EdgeInsets.all(2),
+              child: const Icon(
+                Icons.fastfood,
+                color: Colors.yellow,
+                size: 64,
+              ),
             ),
           ),
         ],

@@ -32,6 +32,7 @@ class _MarkerGeneratorState extends State<MarkerGenerator> {
     final uint8List = byteData.buffer.asUint8List();
     final widgetMarker = widget.widgetMarkers[globalKeys.indexOf(key)];
     return Marker(
+      onTap: widgetMarker.onTap,
       markerId: MarkerId(widgetMarker.markerId),
       position: widgetMarker.position,
       icon: BitmapDescriptor.fromBytes(uint8List),

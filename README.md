@@ -1,39 +1,65 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# widget_marker_google_map
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+[![pub package](https://img.shields.io/pub/v/widget_marker_google_map.svg)](https://pub.dev/packages/detectable_text_field) <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+Google map with widget markers.
+<img src="https://user-images.githubusercontent.com/43510799/142984717-853a7686-503e-4e2c-b090-9767e25fb8d3.png" width=330>
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Set up
+Follow the steps on [google_maps_flutter document.](https://pub.dev/packages/google_maps_flutter#getting-started)
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
 
 ```dart
-const like = 'sample';
+     WidgetMarkerGoogleMap(
+        initialCameraPosition: shibuya,
+        mapType: MapType.normal,
+        widgetMarkers: [
+          WidgetMarker(
+            position: cafePosition,
+            markerId: 'cafe',
+            widget: Container(
+              color: Colors.brown,
+              padding: const EdgeInsets.all(2),
+              child: const Icon(
+                Icons.coffee,
+                color: Colors.white,
+                size: 64,
+              ),
+            ),
+          ),
+          WidgetMarker(
+            position: clothesShopPosition,
+            markerId: 'clothes',
+            widget: Container(
+              color: Colors.green,
+              padding: const EdgeInsets.all(4),
+              child: const Text(
+                'shop',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 32,
+                ),
+              ),
+            ),
+          ),
+          WidgetMarker(
+            position: hamburgerShopPosition,
+            markerId: 'hamburger',
+            widget: Container(
+              color: Colors.red,
+              padding: const EdgeInsets.all(2),
+              child: const Icon(
+                Icons.fastfood,
+                color: Colors.yellow,
+                size: 64,
+              ),
+            ),
+          ),
+        ],
+      ),
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+If you have any requests or questions, please feel free to ask on [github](https://github.com/santa112358/widget_marker_google_map/issues).

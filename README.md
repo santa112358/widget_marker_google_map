@@ -66,7 +66,7 @@ Same as google_maps_flutter except for `widgetMarkers`.
 
 ### WidgetMarker
 
-You need to use `WidgetMarker` to use widgets as markers. 
+You need to insert the list of `WidgetMarker` to use widgets as markers. 
 Make sure that you still need to use `onTap` method when you want to use gestures.
 
 ```widget_marker.dart

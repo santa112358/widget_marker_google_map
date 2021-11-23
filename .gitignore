@@ -37,6 +37,7 @@ build/
 **/android/gradlew
 **/android/gradlew.bat
 **/android/local.properties
+**/android/app/src/main/AndroidManifest.xml
 **/android/**/GeneratedPluginRegistrant.java
 
 # iOS/XCode related
@@ -66,6 +67,7 @@ build/
 **/ios/Flutter/flutter_assets/
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
+**/ios/Runner/AppDelegate.swift
 **/ios/Runner/GeneratedPluginRegistrant.*
 
 # Exceptions to above rules.

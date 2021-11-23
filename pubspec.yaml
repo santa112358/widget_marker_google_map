@@ -1,7 +1,7 @@
 name: widget_marker_google_map
-description: A new Flutter project.
+description: google map with widget markers.
 version: 0.0.1
-homepage:
+homepage: https://github.com/santa112358/widget_marker_google_map
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

@@ -199,7 +199,7 @@ packages:
     source: hosted
     version: "2.1.0"
   widget_marker_google_map:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: ".."
       relative: true

@@ -1,5 +1,3 @@
-library widget_marker_google_map;
-
 import 'dart:ui';
 
 import 'package:flutter/foundation.dart';

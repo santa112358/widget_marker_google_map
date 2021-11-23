@@ -68,7 +68,7 @@ Same as google_maps_flutter except for `widgetMarkers`.
 
 You need to insert the list of `WidgetMarker` to use widget markers.
  
-Make sure that you still need to use `onTap` method when you want to use gestures.
+Make sure that you still need to use `onTap` method when you use gestures.
 
 ```widget_marker.dart
 class WidgetMarker {
@@ -92,4 +92,4 @@ class WidgetMarker {
 }
 ```
 
-If you have any requests or questions, please feel free to ask on [github](https://github.com/santa112358/widget_marker_google_map/issues).
+If you have any requests or questions, feel free to ask on [github](https://github.com/santa112358/widget_marker_google_map/issues).

@@ -3,6 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/widget_marker_google_map.svg)](https://pub.dev/packages/detectable_text_field) <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
 
 Google map with widget markers.
+
 <img src="https://user-images.githubusercontent.com/43510799/142984717-853a7686-503e-4e2c-b090-9767e25fb8d3.png" width=330>
 
 ## Set up

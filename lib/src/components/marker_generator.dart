@@ -36,6 +36,14 @@ class _MarkerGeneratorState extends State<MarkerGenerator> {
       markerId: MarkerId(widgetMarker.markerId),
       position: widgetMarker.position,
       icon: BitmapDescriptor.fromBytes(uint8List),
+      draggable: widgetMarker.draggable,
+      infoWindow: widgetMarker.infoWindow,
+      rotation: widgetMarker.rotation,
+      visible: widgetMarker.visible,
+      zIndex: widgetMarker.zIndex,
+      onDragStart: widgetMarker.onDragStart,
+      onDragEnd: widgetMarker.onDragEnd,
+      onDrag: widgetMarker.onDrag,
     );
   }
 

@@ -50,8 +50,7 @@ class _MarkerGeneratorState extends State<MarkerGenerator> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance
-        ?.addPersistentFrameCallback((_) => onBuildCompleted());
+    WidgetsBinding.instance?.addPostFrameCallback((_) => onBuildCompleted());
   }
 
   Future<void> onBuildCompleted() async {
@@ -72,7 +71,7 @@ class _MarkerGeneratorState extends State<MarkerGenerator> {
       /// Place markers outside of screens
       /// To hide them in case the map becomes transparent.
       offset: Offset(
-        0,
+        -MediaQuery.of(context).size.width,
         -MediaQuery.of(context).size.height,
       ),
       child: Stack(

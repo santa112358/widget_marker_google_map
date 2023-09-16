@@ -1,4 +1,7 @@
 # widget_marker_google_map
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![pub package](https://img.shields.io/pub/v/widget_marker_google_map.svg)](https://pub.dev/packages/widget_marker_google_map) <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
 
@@ -93,3 +96,25 @@ class WidgetMarker {
 ```
 
 If you have any requests or questions, feel free to ask on [github](https://github.com/santa112358/widget_marker_google_map/issues).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/davey06"><img src="https://avatars.githubusercontent.com/u/32833275?v=4?s=100" width="100px;" alt="Devin"/><br /><sub><b>Devin</b></sub></a><br /><a href="https://github.com/santa112358/widget_marker_google_map/commits?author=davey06" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
